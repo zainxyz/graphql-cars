@@ -1,0 +1,64 @@
+# A Generic .GitIgnore file... #
+################################
+
+# Cached Folders #
+#################
+node_modules/
+.sass-cache/
+
+# Cached Files #
+###############
+*.css
+*.css.map
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# gVim #
+*~
+*.swp
+*.swo
+
+# Packages #
+############
+# it is better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log*
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Webstorm generated files #
+############################
+.idea
+
+# Sublime generated files #
+###########################
+*.sublime-project
+*.sublime-workspace

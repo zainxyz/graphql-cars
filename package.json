@@ -1,0 +1,36 @@
+{
+  "author": "Zain Abidi",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-register": "^6.24.0",
+    "express": "^4.15.2",
+    "express-graphql": "^0.6.3",
+    "graphql": "^0.9.1",
+    "json-server": "^0.9.6",
+    "lodash": "^4.17.4",
+    "node-fetch": "^1.6.3",
+    "nodemon": "^1.11.0"
+  },
+  "description": "A sample GraphQL server running with a json-server to provide testing environment for queries and mutations.",
+  "keywords": [
+    "GraphQL",
+    "Cars",
+    "JSON",
+    "Server",
+    "GraphiQL",
+    "ES6",
+    "Mutations",
+    "Queries"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "name": "graphql-cars",
+  "scripts": {
+    "json:server": "json-server --watch database/db.json",
+    "start": "nodemon index.js"
+  },
+  "version": "1.0.0",
+  "devDependencies": {}
+}

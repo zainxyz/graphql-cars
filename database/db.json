@@ -1,0 +1,63 @@
+{
+  "cars": [
+    {
+      "engine": "V10",
+      "hp": 560,
+      "id": "huracan",
+      "manufacturerId": "lamborghini",
+      "name": "Huracan",
+      "price": "$199,800",
+      "year": 2015
+    },
+    {
+      "engine": "V12",
+      "hp": 691,
+      "id": "aventador",
+      "manufacturerId": "lamborghini",
+      "name": "Aventador",
+      "price": "$399,500",
+      "year": 2016
+    },
+    {
+      "engine": "V8",
+      "hp": 444,
+      "id": "granturismo",
+      "manufacturerId": "maserati",
+      "name": "GranTurismo",
+      "price": "$132,825",
+      "year": 2017
+    },
+    {
+      "engine": "V12",
+      "hp": 600,
+      "id": "db11",
+      "manufacturerId": "astonmartin",
+      "name": "DB11",
+      "price": "$214,820",
+      "year": 2017
+    }
+  ],
+  "manufacturers": [
+    {
+      "founded": 1963,
+      "founder": "Ferruccio Lamborghini",
+      "headquarters": "Sant'Agata Bolognese, Italy",
+      "id": "lamborghini",
+      "name": "Automobili Lamborghini S.p.A."
+    },
+    {
+      "founded": 1914,
+      "founder": "Alfieri Maserati",
+      "headquarters": "Modena, Italy",
+      "id": "maserati",
+      "name": "Maserati S.p.A."
+    },
+    {
+      "founded": 1913,
+      "founder": "Lionel Martin",
+      "headquarters": "Gaydon, Warwickshire, England, United Kingdom",
+      "id": "astonmartin",
+      "name": "Aston Martin Lagonda Limited"
+    }
+  ]
+}
